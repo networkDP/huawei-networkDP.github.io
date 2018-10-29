@@ -52,11 +52,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		
 		function fl_MouseClickHandler()
 		{
-			// 开始您的自定义代码
-			// 此示例代码在"输出"面板中显示"已单击鼠标"。
-			alert("已单击鼠标");
 			window.open("http://www.adobe.com");
-			// navigateToURL(new URLRequest ("http://www.adobe.com"),"_blank")
 		}
 	}
 
@@ -69,14 +65,18 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.btn01.parent = this;
 	this.btn01.setTransform(181.9,168,1,1,0,0,0,123.2,121);
 
-	this.timeline.addTween(cjs.Tween.get(this.btn01).wait(1));
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("EgRGBpEINsghQhYingohQQhGiLgxhyQjInLhMoJQhIn0AvoJQAsnwCWn6QCOndDnnaQDinTEElRQE0mPFwjuQA3glAqgTQA4gaAzgFQnZEIl8HnQlHGkj+JDQjgH/h5H/Qh/IggGIMQgGIpCDIGQCJIdESHDQAQAbAGASQAIAagJAUQgSAlhMACQh0AEhxAAQkpAAkegWgAtxPKQgIifhMjnIhCi/QgnhygUhPQgrijgRjKQgMiSgDjjQgElTASj9QAVk/A6kLQB7o1FapsQgVBrg9CJQgkBOhNCbQi9GUhQH5QhDGoAGISQACDaAPCeQASDKArCnQARBDBfEmQBHDcASCRQAEAYgIAUQgIAVgQAAIgEgBgEgFtgkpQgHgOARgLQAQgJATABQFNAHFNhLQAqgKAYgKQAkgPATgZQAhgrgJhaQgKhTghhgQgXhBgvhrQkKpckOnFQhiihgwhRQhUiNg0hqQiNkdgMjzQgRk3CvldQBFiIBrieQA/hcCKi6QB0ibBAhIQBqh5BphKQA7gpAjAWQiGBPiDCRQhQBYiKC7QjwFEhmDFQifEzAAEUQgBEDCPExQA1B0BXCVQAzBXBnCrQEwH9DnIbQAuBqAWBDQAhBiAMBTQAGAugDAgQgEArgTAeQgXAkgwAXQgjAQg3ANQkZBBkeAAQhIAAhIgEg");
+	this.shape.setTransform(440,1018.2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.btn01}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(418.2,1046.5,247.4,243);
+p.nominalBounds = new cjs.Rectangle(698.2,1046.5,498.5,1646.3);
 // library properties:
 lib.properties = {
 	id: 'F53BBB5AC04A32448D4082DA75D38213',
-	width: 720,
+	width: 1280,
 	height: 2000,
 	fps: 30,
 	color: "#333333",
