@@ -66,18 +66,18 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.btn01.setTransform(181.9,168,1,1,0,0,0,123.2,121);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("EgRGBpEINsghQhYingohQQhGiLgxhyQjInLhMoJQhIn0AvoJQAsnwCWn6QAvidA4idQBzk/Cbk+QDinTEElRQE0mPFwjuQA3glAqgTQA4gaAzgFQnZEIl8HnQlHGkj+JDQhbDQhKDPQhsEwhIEvQh/IggGIMQgGIpCDIGQCJIdESHDQAQAbAGASQAIAagJAUQgSAlhMACQh0AEhxAAQkpAAkegWgAtxPKQgIifhMjnIhCi/QgnhygUhPQgrijgRjKQgMiSgDjjQgElTASj9QAVk/A6kLQB7o1FapsQgVBrg9CJQgkBOhNCbQi9GUhQH5QhDGoAGISQACDaAPCeQASDKArCnQARBDBfEmQBHDcASCRQAEAYgIAUQgIAVgQAAIgEgBgEgFtgkpQgHgOARgLQAQgJATABQFNAHFNhLQAqgKAYgKQAkgPATgZQAhgrgJhaQgKhTghhgQgXhBgvhrQkKpckOnFQhiihgwhRQhUiNg0hqQiNkdgMjzQgRk3CvldQBFiIBrieQA/hcCKi6QB0ibBAhIQBqh5BphKQA7gpAjAWQiGBPiDCRQhQBYiKC7QjwFEhmDFQifEzAAEUQgBEDCPExQA1B0BXCVQAzBXBnCrQEwH9DnIbQAuBqAWBDQAhBiAMBTQAGAugDAgQgEArgTAeQgXAkgwAXQgjAQg3ANQkZBBkeAAQhIAAhIgEg");
+	this.shape.graphics.f("#FFFFFF").s().p("EgRGBpEINsghQhYingohQQhGiLgxhyQjInLhMoJQhIn0AvoJQAsnwCWn6QAvidA4idQBzk/Cbk+QDinTEElRQE0mPFwjuQA3glAqgTQA4gaAzgFQnZEIl8HnQlHGkj+JDQhbDQhKDPQhsEwhIEvQh/IggGIMQgGIpCDIGQCJIdESHDQAQAbAGASQAIAagJAUQgSAlhMACQh0AEhxAAQkpAAkegWgAtxPKQgIifhMjnIhCi/QgnhygUhPQgrijgRjKQgMiSgDjjQgElTASj9QAVk/A6kLQB1oWE7pHIAlhEQgGAhgKAjQgXBRgrBfQgkBOhNCbQi9GUhQH5QhDGoAGISQACDaAPCeQASDKArCnQARBDBfEmQBHDcASCRQAEAYgIAUQgIAVgQAAIgEgBgEgFtgkpQgHgOARgLQAQgJATABQFNAHFNhLQAqgKAYgKQAkgPATgZQAhgrgJhaQgKhTghhgIgHgTQgWg9gphcQkKpckOnFQhiihgwhRQhUiNg0hqQiNkdgMjzQgRk3CvldQBFiIBrieIA6hTQA5hPBWh0QB0ibBAhIQBqh5BphKQA7gpAjAWQiGBPiDCRQhQBYiKC7Qg1BIguBBQijDnhQCZQifEzAAEUQgBEDCPExQA1B0BXCVQAzBXBnCrQEwH9DnIbQAqBiAXBAIADALQAhBiAMBTQAGAugDAgQgEArgTAeQgXAkgwAXQgjAQg3ANQkZBBkeAAQhIAAhIgEg");
 	this.shape.setTransform(440,1018.2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.btn01}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(698.2,246.5,498.5,1646.3);
+p.nominalBounds = new cjs.Rectangle(698.2,1006.5,498.5,1646.3);
 // library properties:
 lib.properties = {
 	id: 'F53BBB5AC04A32448D4082DA75D38213',
 	width: 1280,
-	height: 400,
+	height: 1920,
 	fps: 30,
 	color: "#333333",
 	opacity: 1.00,
